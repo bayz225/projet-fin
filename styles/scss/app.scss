@@ -1,0 +1,19 @@
+section {
+    margin-top: 100px;
+
+    &#home {
+        margin-top: 0px;
+    }
+}
+
+.info-card {
+    padding: 25px;
+    border-radius: 15px;
+    transition: .3s;
+
+    &:hover {
+        color: #eeeeee;
+        background-color: hsl(221, 65%, 30%);
+        cursor: pointer;
+    }
+}
